@@ -69,7 +69,7 @@ In future projects, i want to improve my DOM manipulation skills by using Events
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/akshay63)
-- Twitter - [@yourusername](https://www.twitter.com/aka_akshaymesh)
+- Frontend Mentor - [@akshay63](https://www.frontendmentor.io/profile/akshay63)
+- Twitter - [@aka_akshaymesh](https://www.twitter.com/aka_akshaymesh)
 
 ## Acknowledgments
