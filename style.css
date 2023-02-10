@@ -71,7 +71,7 @@ a {
 
 /* rating */
 .rating {
-  transition: all 0.2 ease-in;
+  transition: all 0.2s ease-in;
 }
 .rating .icon {
   margin-bottom: 33px;
@@ -178,4 +178,85 @@ button:hover {
   text-align: center;
   position: relative;
   left: -4px;
+  color: var(--color-secondary-2);
+}
+
+/* Mobile view */
+@media only screen and (max-width: 410px) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .rating_box {
+    max-width: 329px;
+    height: 362px;
+    padding: 28px 25px;
+    border-radius: 20px;
+  }
+
+  .rating .icon {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 15px;
+  }
+
+  .que {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+  }
+
+  .feedback_para {
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+
+  .ratings {
+    margin-bottom: 25px;
+    justify-content: space-between;
+  }
+
+  .num {
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+
+  .num:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  button {
+    width: 280px;
+    height: 42px;
+    font-size: 1.5rem;
+  }
+
+  .rating-feedback {
+    margin-top: 8px;
+  }
+
+  .rating-feedback .icon {
+    margin-left: 6px;
+    margin-bottom: 19px;
+  }
+
+  .rating-feedback .icon img {
+    width: 144px;
+  }
+
+  .rating-highlight-txt {
+    padding: 6px 9px;
+    margin-bottom: 26px;
+  }
+
+  .rating-feedback h1 {
+    font-size: 2.65rem;
+    margin-bottom: 11px;
+  }
+
+  .rating-feedback p {
+    padding: 0 3px;
+    left: 2px;
+    font-size: 14px;
+  }
 }
